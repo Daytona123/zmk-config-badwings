@@ -21,7 +21,9 @@
         #gpio-cells = <2>;
         ngpios = <8>;
     };
+};
 
+&xiao_spi {
     glidepoint: glidepoint@2a {
         compatible = "cirque,pinnacle";
         spi-max-frequency = <200000>;
