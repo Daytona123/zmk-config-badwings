@@ -37,7 +37,7 @@
 / {
   cirque_listener {
     compatible = "zmk,input-listener";
-    device = <&cirque>;
+    device = <&pinnacle>;
 
     xy-swap;
     y-invert;
