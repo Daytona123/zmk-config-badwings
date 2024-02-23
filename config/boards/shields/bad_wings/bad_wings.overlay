@@ -10,8 +10,8 @@
 
 &xiao_spi {
     status = "okay";
+    cs-gpios = <&xiao_d 6 GPIO_ACTIVE_LOW>;
     shifter: 595@0 {
-        cs-gpios = <&xiao_d 6 GPIO_ACTIVE_LOW>;
         compatible = "zmk,gpio-595";
         status = "okay";
         gpio-controller;
