@@ -8,11 +8,11 @@ manifest:
     #   revision: main
     #   import: app/west.yml
     - name: zmk
-      remote: petejohanson
+      remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: cirque-input-module
-      remote: petejohanson
+      remote: zmkfirmware
       revision: main
   self:
     path: config
