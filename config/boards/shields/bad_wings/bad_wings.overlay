@@ -28,7 +28,6 @@
         reg = <0x2a>;
         status = "okay";
         dr-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH)>;
-        cs-gpios = <&xiao_d 7 GPIO_ACTIVE_LOW>;
 
         sensitivity = "4x";
         sleep;
