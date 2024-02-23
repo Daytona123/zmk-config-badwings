@@ -21,6 +21,28 @@
         #gpio-cells = <2>;
         ngpios = <8>;
     };
+
+    glidepoint: glidepoint@2a {
+        compatible = "cirque,pinnacle";
+        reg = <0x2a>;
+        status = "okay";
+        dr-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH)>;
+
+        sensitivity = "2x";
+        sleep;
+        no-taps;
+        };
+    };
+
+/ {
+  cirque_listener {
+    compatible = "zmk,input-listener";
+    device = <&cirque>;
+
+    xy-swap;
+    y-invert;
+    x-invert;
+  };
 };
 
 / {
