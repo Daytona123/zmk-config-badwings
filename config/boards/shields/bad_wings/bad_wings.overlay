@@ -35,16 +35,17 @@
     };
 
 / {
-  cirque_listener {
-    compatible = "zmk,input-listener";
-    device = <&cirque>;
+    input_config {
+        compatible = "zmk,input-configs";
 
-    xy-swap;
-    y-invert;
-    x-invert;
-  };
+        cirque_config {
+            device = <&glidepoint>;
+            xy-swap;
+            y-invert;
+            x-invert;
+        };
+    };
 };
-
 / {
     chosen {
         zmk,kscan = &kscan0;
