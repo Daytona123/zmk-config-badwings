@@ -24,10 +24,10 @@
 };
 
 &xiao_spi {
-    glidepoint: glidepoint@0 {
+    glidepoint: glidepoint@1 {
         compatible = "cirque,pinnacle";
         spi-max-frequency = <200000>;
-        reg = <0>;
+        reg = <1>;
         status = "okay";
         dr-gpios = <&xiao_d 5 GPIO_ACTIVE_HIGH>;
 
