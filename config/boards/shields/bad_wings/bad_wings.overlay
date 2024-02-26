@@ -11,7 +11,7 @@
 &xiao_spi {
     status = "okay";
     
-    cs-gpios = <&xiao_d 6 GPIO_ACTIVE_LOW>, <&xiao_d 7 GPIO_ACTIVE_HIGH>;
+    cs-gpios = <&xiao_d 6 GPIO_ACTIVE_LOW>, <&xiao_d 7 GPIO_ACTIVE_LOW>;
     shifter: 595@0 {
         compatible = "zmk,gpio-595";
         status = "okay";
@@ -28,7 +28,7 @@
         spi-max-frequency = <200000>;
         reg = <1>;
         status = "okay";
-        dr-gpios = <&xiao_d 5 (GPIO_ACTIVE_LOW)>;
+        dr-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "4x";
         sleep;
