@@ -8,3 +8,4 @@ exposes:
   - spi_glidepoint
 features:
   - keys
+  - pointer
