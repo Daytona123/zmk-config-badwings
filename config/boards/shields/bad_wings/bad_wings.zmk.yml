@@ -5,7 +5,7 @@ type: shield
 url: https://github.com/jasonhazel/bad_wings
 requires: [seeed_xiao]
 exposes:
-  - spi_glidepoint
+  - [spi_glidepoint]
 features:
   - keys
   - pointer
