@@ -41,7 +41,7 @@
 / {
   cirque_listener {
     compatible = "zmk,input-listener";
-    device = <&cirque>;
+    device = <&glidepoint>;
 
     xy-swap;
     y-invert;
