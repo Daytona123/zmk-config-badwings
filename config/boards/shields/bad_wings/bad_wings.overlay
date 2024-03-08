@@ -46,7 +46,6 @@
     xy-swap;
     y-invert;
     x-invert;
-    scale_multiplier = "3";
   };
 };
 
