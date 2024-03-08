@@ -33,6 +33,7 @@
         sensitivity = "2x";
         sleep;
         no-taps;
+        scale_multiplier = "3";
         };
 };
 
