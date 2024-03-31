@@ -31,7 +31,7 @@
         dr-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "2x";
-        sleep;
+        //sleep;
         no-taps;
         };
 };
